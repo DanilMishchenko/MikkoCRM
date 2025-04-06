@@ -83,7 +83,7 @@ export const Sidebar = ({ isVisible, closeSidebar }: SidebarProps) => {
         onClick={() => setIsExpanded(!isExpanded)}
         className="sm:block hidden absolute bottom-2 right-[-12px] p-1 bg-white rounded-full shadow-md cursor-pointer"
       >
-        {/* || window.innerWidth < 640 */}
+        {/* || window.innerWidth < 640 222*/}
         {isExpanded ? <ChevronsLeft size={12} /> : <ChevronsRight size={12} />}
       </button>
     </aside>
